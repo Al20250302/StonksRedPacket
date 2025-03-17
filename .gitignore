@@ -1,0 +1,18 @@
+# 典型Node.js项目可忽略的目录和文件
+node_modules/
+dist/
+coverage/
+*.log
+
+# 环境变量文件
+.env
+.env.*
+.DS_Store
+
+# 如果使用 Typescript
+*.tsbuildinfo
+
+# 其他可能不需要的文件
+.idea/
+.vscode/
+node_modules
